@@ -1,0 +1,32 @@
+body {
+    background-color:#659157;
+    text-align: center;
+}
+
+button {
+    background-color: #DB7F8E;
+    color:snow;
+    font-family: 'Fira Sans', sans-serif;
+    width:110px;
+    padding:10px;
+    margin-top:30px;
+    border:none;
+    border-radius: 4px
+}
+
+
+button:hover {
+    background-color: #931F1D;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter; 
+    color: snow;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: normal; 
+    color: snow;
+}

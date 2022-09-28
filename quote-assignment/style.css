@@ -1,0 +1,32 @@
+/*
+MY COLOR PALETTE
+Light Green - #659157
+Cornflower Blue - #7f95d1
+Red - #931f1d
+Pink  - #db7f8e
+Dark Green - #1f2f16
+*/
+
+body {
+    background-color:#db7f8e ;
+    text-align:center;
+}
+
+/* Making a statement */
+
+div {
+    width: 300px;
+    height: 500px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color: #931f1d;
+    border:3px solid snow;
+    padding: 60px 30px 10px 30px;
+    margin:auto;
+}
+
+#highlight {
+    color:#659157;
+    font-weight:bold;
+}

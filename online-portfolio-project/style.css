@@ -1,5 +1,238 @@
-.nav a {
-   font-size:44px;
-    font-family: 'Courgette', cursive;
-    color: #931f1d; 
+.nav {
+    background-color: #173A33;
 }
+
+#headshot {
+    width:300px; 
+    border: 2px solid #A0B572;
+    border-radius: 180px;
+    text-align:left;
+}
+
+
+#topper {
+    text-align: center;
+    background-image: url(leaf.jpg);
+    background-size:cover;
+}
+
+#name {
+    text-align: center; 
+    font-family: 'Cormorant Garamond', serif;
+    color: #931F1D;
+    padding: 10px 10px 0px 10px;
+}
+
+#lucy {
+    text-align: center; 
+    font-family: 'Cormorant Garamond', serif;
+    color: #931F1D;
+    padding: 10px 10px 0px 10px;
+}
+
+#prof {
+    font-size: 20px;
+}
+
+#body {
+    background-color:#A0B572;
+}
+
+#body1 {
+    background-color:#A0B572;
+}
+
+.nav a {
+    font-size:25px;
+    font-family: 'Courgette'; 
+    color: beige; 
+}
+
+.nav a:hover {
+    background-color:#A0B572;
+    color:aliceblue;
+}
+
+button {
+    background-color: #931F1D;
+    color:snow;
+    font-family: 'Cormorant Garamond',serif;
+    font-weight:bolder;
+    width:110px;
+    padding:10px;
+    margin-top:15px;
+    border:none;
+    border-radius: 15px;   
+}
+
+button:hover {
+    background-color: #E88839;
+}
+
+#experience {
+  padding: 15px 0px 15px 0px; 
+  color:#931F1D;
+  font-weight:bold;
+}
+
+#experience1 {
+  padding: 15px 0px 15px 0px; 
+  color:#931F1D;
+  font-weight:bold;
+}
+
+#education {
+  padding: 15px 0px 15px 0px; 
+  color:#931F1D;
+  font-weight:bold;
+}
+
+#skills {
+  padding: 15px 0px 15px 0px; 
+  color:#931F1D;
+  font-weight:bold;
+}
+
+#skills1 {
+  padding: 15px 0px 15px 0px; 
+  color:#931F1D;
+  font-weight:bold;
+}
+
+
+#staffwriter {
+    font-weight: bolder;
+}
+
+#staffwriter1 {
+    font-weight: bolder;
+}
+
+#staffwriter2 {
+    font-weight: bolder; 
+}
+
+#copyeditor {
+    font-weight: bolder;
+}
+
+#staffwriter {
+    font-weight:bolder;
+}
+#staffwriter ii{
+    font-weight: bolder;
+}
+
+#list {
+    padding: 10px 0px 0px 15px;
+}
+
+#listt {
+    padding: 10px 0px 0px 15px;
+}
+
+#listtt {
+    padding: 10px 0px 0px 15px;
+}
+
+#listttt {
+    padding: 10px 0px 0px 15px;
+}
+
+#listtttt {
+    padding: 10px 0px 0px 15px;
+}
+
+#listttttt {
+    padding: 10px 0px 0px 15px;
+}
+
+#sum {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum1 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum2 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum3 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum4 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum5 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum6 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum7 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum8 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum9 {
+    padding: 10px 0px 0px 5px;
+}
+
+#sum10 {
+    padding: 10px 0px 0px 5px;
+}
+
+#umd {
+    font-weight:bolder;
+}
+
+#bcc {
+    font-weight:bolder;
+}
+
+#body {
+font-family: 'Cormorant Garamond', serif;
+
+}
+
+#footer {
+    font-family:'Cormorant Garamond', serif;
+    color: #931F1D;
+    font-size: 10px;
+    text-align:center;
+}
+
+#pve {
+    font-weight:bolder;
+    padding:10px 0px 0px 0px;
+}
+
+#writing {
+    font-weight:bolder;
+    padding: 10px 0px 0px 0px;
+}
+
+#sm {
+    font-weight:bolder;
+    padding: 10px 0px 0px 0px;
+}
+
+#copyediting {
+    font-weight:bolder;
+    padding: 10px 0px 0px 0px;
+}
+
+#research {
+    font-weight:bolder;
+    padding: 10px 0px 0px 0px;
+}
+

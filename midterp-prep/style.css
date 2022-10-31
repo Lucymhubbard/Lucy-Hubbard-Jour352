@@ -40,6 +40,7 @@ h1 {
     #footer {
         position:fixed;
         bottom:0px;
+        background-color:grey;
     }
     
 }

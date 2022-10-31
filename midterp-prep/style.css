@@ -7,7 +7,10 @@
 }
 
 body {
-    font-family:arial,sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:600px;
 }
 
 #contact a {
@@ -25,11 +28,18 @@ body {
     margin:auto;
 }
     
-    }
-
 h1 {
     margin: 0px 0px 40px 0px;
 }
 
+#highlight {
+    color:forestgreen;
 
+}
+
+    #footer {
+        position:fixed;
+        bottom:0px;
+    }
     
+}

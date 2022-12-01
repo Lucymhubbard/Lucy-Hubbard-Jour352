@@ -37,6 +37,7 @@
     font-family: 'Bebas Neue', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
 }
 
 #title {
@@ -51,4 +52,8 @@
 
 #door {
     width:1550px; 
+}
+
+#closing {
+    font-style: italic;
 }

@@ -6,6 +6,7 @@
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    
 }
 
 @media (min-width: 992px) {
@@ -18,13 +19,24 @@
 #topper {
     background-image: url(lottery.jpg);
     background-size:cover;
-    
     width:100%;
     }
-
+    
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
 #head {
     background-color:#D4D9E0;
+}
+
+#names {
+    font-size: 40px;
+    background-color:#B72828;
+    padding:20px;
+    color:#D4D9E0;
 }
 
 #body {
@@ -34,15 +46,22 @@
     font-family: 'Fira Sans', sans-serif;
     font-size: 45px;
 }
+    
+#intro {
+      padding-top:25px; 
+    }
+    #poor {
+       padding-top:25px;  
+    }
 
 #title {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
     font-size:100px;
-    color:#B44948;
+    color:#B72828;
     font-weight: bolder;
-    object-position: top;
+    text-align: left;
 }
 
 #store {
@@ -53,7 +72,7 @@
 }
 
 #benefits {
-      font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
     font-size:60px;
@@ -67,22 +86,41 @@
     padding-top: 15px;
 }
 
+#retailer {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+
 #flourish-embed flourish-chart {
     height: 350px;
 }
 
 #checks {
-    width:1550px;
-}
-
-#door {
-    width:1550px; 
+    width:1600px;
+    align-content: center;
 }
 
 #closing {
     font-style: italic;
 }
+
+.article {
+    padding-bottom: 25px;    
+    }
+    
+     #intro2 {
+        text-decoration: underline;
+    }
+    
+    #list {
+        font-size: 60px;
+    }
 }
+
+
 
 @media (min-width: 1200px) {
     /*Large-Desktop-only styles here*/
@@ -154,10 +192,6 @@ bottom: 8px;
     height: 350px;
 }
 
-#checks {
-    width:1550px;
-}
-
 #door {
     width:1550px; 
 }
@@ -165,90 +199,24 @@ bottom: 8px;
 #closing {
     font-style: italic;
 }
-}
-
-#para {
-    text-align: center;
-}
-
-#topper {
-    background-image: url(lottery.jpg);
-    background-size:cover;
+    
+ .button {
+    background-color:#B72828;
+    color:snow;
+    font-size:45px;
+    font-weight:bold;
+    border:none;
     width:100%;
-    }
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
-}
-
-#names {
-    font-size: 40px;
-    background-color:#B44948;
-    padding:20px;
-    color:#D4D9E0;
-}
-
-#body {
-    background-color:#D4D9E0;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
-
-#title {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:100px;
-    color:#B44948;
-    font-weight: bolder;
-}
-
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-      font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
-
-#flourish-embed flourish-chart {
-    height: 350px;
-}
-
-#checks {
-    width:1600px;
     align-content: center;
+    height:200px;
+    align-content: center;
+    padding: 25px;
+    border-radius: 6px;
+    }
+    
+    .button:hover {
+        background-color:cadetblue;
+        color:snow;
+    }
 }
 
-#door {
-    width:1550px; 
-}
-
-#closing {
-    font-style: italic;
-}
-
-#article cont {
-    margin: 500px;
-}

@@ -11,22 +11,104 @@
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
     /*This media query targets any screen that is at least 992px wide*/
-}
-
-@media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
-}
-
 #para {
     text-align: center;
 }
 
 #topper {
-    text-align: center;
     background-image: url(lottery.jpg);
     background-size:cover;
+    
+    width:100%;
     }
+
+
+#head {
+    background-color:#D4D9E0;
+}
+
+#body {
+    background-color:#D4D9E0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
+}
+
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:100px;
+    color:#B44948;
+    font-weight: bolder;
+    object-position: top;
+}
+
+#store {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#benefits {
+      font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#government {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+
+#flourish-embed flourish-chart {
+    height: 350px;
+}
+
+#checks {
+    width:1550px;
+}
+
+#door {
+    width:1550px; 
+}
+
+#closing {
+    font-style: italic;
+}
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+ #para {
+    text-align: center;
+}
+
+#topper {
+    background-image: url(lottery.jpg);
+    background-size:cover;
+    padding:500px;
+    width:100%;
+    }
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#heads {
+bottom: 8px;
+  left: 16px;
+}
 
 #head {
     background-color:#D4D9E0;
@@ -46,6 +128,32 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+#store {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#benefits {
+      font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#government {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+
+#flourish-embed flourish-chart {
+    height: 350px;
+}
+
 #checks {
     width:1550px;
 }
@@ -56,4 +164,91 @@
 
 #closing {
     font-style: italic;
+}
+}
+
+#para {
+    text-align: center;
+}
+
+#topper {
+    background-image: url(lottery.jpg);
+    background-size:cover;
+    width:100%;
+    }
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#head {
+    background-color:#D4D9E0;
+}
+
+#names {
+    font-size: 40px;
+    background-color:#B44948;
+    padding:20px;
+    color:#D4D9E0;
+}
+
+#body {
+    background-color:#D4D9E0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
+}
+
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:100px;
+    color:#B44948;
+    font-weight: bolder;
+}
+
+#store {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#benefits {
+      font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#government {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+
+#flourish-embed flourish-chart {
+    height: 350px;
+}
+
+#checks {
+    width:1600px;
+    align-content: center;
+}
+
+#door {
+    width:1550px; 
+}
+
+#closing {
+    font-style: italic;
+}
+
+#article cont {
+    margin: 500px;
 }

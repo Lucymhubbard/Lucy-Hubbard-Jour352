@@ -1,25 +1,20 @@
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
-   
-
-@media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
- #para {
+    #para {
     text-align: center;
 }
 
 #topper {
     background-image: url(lottery.jpg);
-    background-size:cover;
+    background-size:auto;
     padding:500px;
     width:100%;
     }
 
 /* Bottom left text */
 .bottom-left {
-  position: fixed;
+  position:relative;
   bottom: 8px;
   left: 16px;
 }
@@ -42,7 +37,229 @@ bottom: 8px;
 }
 
 #title {
+    font-family: 'Anton', Sans-Serif;
+    font-size:150px;
+    color:#B72828;
+    font-weight: 300;  
+}
 
+#store {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#benefits {
+      font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#government {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+    
+    #pullquote {
+        font-size:75px;
+        padding-bottom:25px;
+    }
+    
+    #highlight {
+        color:#B72828;
+        font-weight:bolder;
+    }
+
+#flourish-embed flourish-chart {
+    height: 350px;
+}
+
+#door {
+    width:1550px; 
+}
+
+#closing {
+    font-style: italic;
+}
+    
+ .button {
+    background-color:#B72828;
+    color:snow;
+    font-size:12px;
+    font-weight:bold;
+    border:none;
+    width:100%;
+    align-content: center;
+    height:200px;
+    align-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    }
+    
+ .button:hover {
+    background-color:#FF7B7B;
+    color:snow;
+    } 
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+ #para {
+    text-align: center;
+}
+
+#topper {
+    background-image: url(lottery.jpg);
+    background-size:cover;
+    padding:500px;
+    width:100%;
+    }
+
+/* Bottom left text */
+.bottom-left {
+  position:relative;
+  bottom: 8px;
+  left: 16px;
+}
+
+#heads {
+bottom: 8px;
+  left: 16px;
+}
+
+#head {
+    background-color:#D4D9E0;
+}
+
+#body {
+    background-color:#D4D9E0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
+}
+
+#title {
+    font-family: 'Anton', Sans-Serif;
+    font-size:150px;
+    color:#B72828;
+    font-weight: 300;  
+}
+
+#store {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#benefits {
+      font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+}
+
+#government {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:60px;
+    padding-top: 15px;
+}
+    
+    #pullquote {
+        font-size:75px;
+        padding-bottom:25px;
+    }
+    
+    #highlight {
+        color:#B72828;
+        font-weight:bolder;
+    }
+
+#flourish-embed flourish-chart {
+    height: 350px;
+}
+
+#door {
+    width:1550px; 
+}
+
+#closing {
+    font-style: italic;
+}
+    
+ .button {
+    background-color:#B72828;
+    color:snow;
+    font-size:45px;
+    font-weight:bold;
+    border:none;
+    width:100%;
+    align-content: center;
+    height:200px;
+    align-content: center;
+    padding: 25px;
+    border-radius: 20px;
+    }
+    
+ .button:hover {
+    background-color:#FF7B7B;
+    color:snow;
+    }
+}  
+
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+ 
+.bottom-left {
+  position:absolute;
+  bottom: 8px;
+  left: 16px;
+  padding-bottom: 1500px;
+}      
+    #para {
+    text-align: center;
+}
+
+#topper {
+    background-image: url(lottery.jpg);
+    background-size:cover;
+    padding:500px;
+    width:100%;
+    }
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#heads {
+bottom: 8px;
+  left: 16px;
+}
+
+#head {
+    background-color:#D4D9E0;
+}
+
+#body {
+    background-color:#D4D9E0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 45px;
 }
 
 #store {
@@ -106,17 +323,12 @@ bottom: 8px;
     background-color:#FF7B7B;
     color:snow;
     }
-}  
-}
-
-@media (min-width: 576px) {
-    /*Tablet-only styles here*/
-    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
-.bottom-left {
-    position:fixed;
-    bottom: 8px;
-    left: 16px;
-    padding-bottom: 1000px;
+    
+    .caption {
+        font-size: 25px;
+        padding-bottom:25px;
+        
+    }  
 }
 
 @media (min-width: 992px) {
@@ -245,8 +457,6 @@ bottom: 8px;
     }
 }
 
-
-
 @media (min-width: 1200px) {
     /*Large-Desktop-only styles here*/
     /*This media query targets any screen that is at least 1200px wide*/
@@ -261,7 +471,6 @@ bottom: 8px;
     width:100%;
     }
 
-/* Bottom left text */
 .bottom-left {
   position: absolute;
   bottom: 8px;
@@ -283,10 +492,6 @@ bottom: 8px;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
     font-size: 45px;
-}
-
-#title {
-
 }
 
 #store {
@@ -311,11 +516,12 @@ bottom: 8px;
     padding-top: 15px;
 }
     
-    #pullquote {
-        font-size:60px
+#pullquote {
+        font-size:80px;
+        padding:50px;
     }
     
-    #highlight {
+#highlight {
         color:#B72828;
         font-weight:bolder;
     }
@@ -350,5 +556,14 @@ bottom: 8px;
     background-color:#FF7B7B;
     color:snow;
     }
+    
+    .caption {
+        font-size: 25px;
+        padding-bottom:25px;
+        
+    }
+
 }
+    
+
 

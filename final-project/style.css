@@ -1,140 +1,28 @@
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
-    #para {
-    text-align: center;
-}
-
-#topper {
-    background-image: url(lottery.jpg);
-    background-size:auto;
-    padding:500px;
-    width:100%;
-    }
-
-/* Bottom left text */
-.bottom-left {
-  position:relative;
-  bottom: 8px;
-  left: 16px;
-}
-
-#heads {
-bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
-}
-
-#body {
-    background-color:#D4D9E0;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
-
-#title {
-    font-family: 'Anton', Sans-Serif;
-    font-size:150px;
-    color:#B72828;
-    font-weight: 300;  
-}
-
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-      font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
     
-    #pullquote {
-        font-size:75px;
-        padding-bottom:25px;
-    }
-    
-    #highlight {
-        color:#B72828;
-        font-weight:bolder;
-    }
-
-#flourish-embed flourish-chart {
-    height: 350px;
-}
-
-#door {
-    width:1550px; 
-}
-
-#closing {
-    font-style: italic;
-}
-    
- .button {
-    background-color:#B72828;
-    color:snow;
-    font-size:12px;
-    font-weight:bold;
-    border:none;
-    width:100%;
-    align-content: center;
-    height:200px;
-    align-content: center;
-    padding: 25px;
-    border-radius: 20px;
-    }
-    
- .button:hover {
-    background-color:#FF7B7B;
-    color:snow;
-    } 
-}
-
-@media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
- #para {
-    text-align: center;
-}
-
 #topper {
     background-image: url(lottery.jpg);
     background-size:cover;
-    padding:500px;
     width:100%;
+    height:500px;
     }
-
-/* Bottom left text */
-.bottom-left {
-  position:relative;
-  bottom: 8px;
-  left: 16px;
+   
+.bottom-left2 {
+    padding:40% 0 0 0;
 }
-
+    
+#title {
+    font-family: 'Anton', Sans-Serif;
+    font-size:50px;
+    color:#B72828;
+    font-weight: 300;   
+    }
+    
 #heads {
 bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
+left: 16px;
 }
 
 #body {
@@ -142,383 +30,49 @@ bottom: 8px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
-
-#title {
-    font-family: 'Anton', Sans-Serif;
-    font-size:150px;
-    color:#B72828;
-    font-weight: 300;  
-}
-
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-      font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
+    font-size: 20px;
 }
     
-    #pullquote {
-        font-size:75px;
-        padding-bottom:25px;
+.article {
+    padding:0 0px 20px 20px;
+    }    
+    
+.img-fluid {
+    padding:0 0px 20px 20px;   
     }
     
-    #highlight {
-        color:#B72828;
-        font-weight:bolder;
-    }
-
-#flourish-embed flourish-chart {
-    height: 350px;
-}
-
-#door {
-    width:1550px; 
-}
-
-#closing {
-    font-style: italic;
-}
-    
- .button {
-    background-color:#B72828;
-    color:snow;
-    font-size:45px;
-    font-weight:bold;
-    border:none;
-    width:100%;
-    align-content: center;
-    height:200px;
-    align-content: center;
-    padding: 25px;
-    border-radius: 20px;
-    }
-    
- .button:hover {
-    background-color:#FF7B7B;
-    color:snow;
-    }
-}  
-
-
-@media (min-width: 576px) {
-    /*Tablet-only styles here*/
-    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+.caption {
+    font-size:10px; 
+    padding:0 0px 20px 0px; 
+    }    
  
-.bottom-left {
-  position:absolute;
-  bottom: 8px;
-  left: 16px;
-  padding-bottom: 1500px;
-}      
-    #para {
-    text-align: center;
-}
-
-#topper {
-    background-image: url(lottery.jpg);
-    background-size:cover;
-    padding:500px;
-    width:100%;
-    }
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-#heads {
-bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
-}
-
-#body {
-    background-color:#D4D9E0;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
-
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-      font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
-    
-    #pullquote {
-        font-size:60px
-    }
-    
-    #highlight {
-        color:#B72828;
-        font-weight:bolder;
-    }
-
-#flourish-embed flourish-chart {
-    height: 350px;
-}
-
-#door {
-    width:1550px; 
-}
-
-#closing {
-    font-style: italic;
-}
-    
- .button {
-    background-color:#B72828;
-    color:snow;
-    font-size:45px;
-    font-weight:bold;
-    border:none;
-    width:100%;
-    align-content: center;
-    height:200px;
-    align-content: center;
-    padding: 25px;
-    border-radius: 20px;
-    }
-    
- .button:hover {
-    background-color:#FF7B7B;
-    color:snow;
-    }
-    
-    .caption {
-        font-size: 25px;
-        padding-bottom:25px;
-        
-    }  
-}
-
-@media (min-width: 992px) {
-    /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
-.bottom-left {
-  position:absolute;
-  bottom: 8px;
-  left: 16px;
-  padding-bottom: 1500px;
-}    
-    
-#para {
-    text-align: center;
-}
-
-#topper {
-    background-image: url(lottery.jpg);
-    background-size:cover;
-    width:100%;
-    }
-    
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
-}
-
 #names {
-    font-size: 40px;
+    font-size: 15px;
     background-color:#B72828;
-    padding:20px;
+    padding:10px;
     color:#D4D9E0;
 }
 
-#body {
-    background-color:#D4D9E0;
+.subhead {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
+    font-size:40px;
+    padding:0 0px 20px 20px;
+    }    
     
-#intro {
-      padding-top:25px; 
+#list {
+    padding-left:5px;
     }
-    
-    #poor {
-       padding-top:25px;  
-    }
-
-#title {
-    font-family: 'Anton', Sans-Serif;
-    font-size:150px;
-    color:#B72828;
-    font-weight: 300;    
-}
-
-     #pullquote {
-        font-size:60px;
-        font-family:'Anton', Sans-Serif;
-    }
-    
-    #highlight {
-        color:#B72828;
-        font-weight:bolder;
-    }
-    
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
-
-#retailer {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
-
-#flourish-embed flourish-chart {
-    height: 350px;
-}
-
-#checks {
-    width:1600px;
-    align-content: center;
-}
-
-#closing {
-    font-style: italic;
-}
-
-.article {
-    padding-bottom: 25px;    
-    }
-    
-     #intro2 {
-        text-decoration: underline;
-    }
-    
-    #list {
-        font-size: 60px;
-    }
-}
-
-@media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
- #para {
-    text-align: center;
-}
-
-#topper {
-    background-image: url(lottery.jpg);
-    background-size:cover;
-    padding:500px;
-    width:100%;
-    }
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-#heads {
-bottom: 8px;
-  left: 16px;
-}
-
-#head {
-    background-color:#D4D9E0;
-}
-
-#body {
-    background-color:#D4D9E0;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 45px;
-}
-
-#store {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#benefits {
-      font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-}
-
-#government {
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'Fira Sans', sans-serif;
-    font-size:60px;
-    padding-top: 15px;
-}
     
 #pullquote {
-        font-size:80px;
-        padding:50px;
+    font-size:30px;
+    padding:0 25px 60px 20px;
+    font-family: 'Anton', Sans-Serif;
+    }
+
+#zs {
+        font-size: 20px;
     }
     
 #highlight {
@@ -536,34 +90,105 @@ bottom: 8px;
 
 #closing {
     font-style: italic;
+    padding:0 0px 20px 20px;
 }
     
  .button {
     background-color:#B72828;
     color:snow;
-    font-size:45px;
+    font-size:25px;
     font-weight:bold;
     border:none;
     width:100%;
     align-content: center;
-    height:200px;
-    align-content: center;
-    padding: 25px;
-    border-radius: 20px;
+    height:100px;
+    padding: 5px;
+    border-radius: 30px;
+    margin:15px;
     }
     
  .button:hover {
     background-color:#FF7B7B;
     color:snow;
-    }
-    
-    .caption {
-        font-size: 25px;
-        padding-bottom:25px;
-        
-    }
-
+    } 
 }
+
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
     
+    .bottom-left2 {
+    padding:35% 0 0 0;
+    }
+    
+    #title {
+    font-size:60px;
+    }
+    
+    
+    .button {
+        border-radius: 15px;
+    }
+  
+    .article {
+    padding:0 0px 0px 0px;
+    }  
+    
+    .subhead {
+        padding:0 0 0 0;
+    }
+    
+    #closing {
+    font-style: italic;
+    padding:0 0 0 0;
+    }
+        
+    #pullquote {
+    font-size:30px;
+    padding:0 0 0 0;
+    }
+    .button {
+        margin:0px;
+        margin-bottom:15px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+    #title {
+    font-size: 75px;
+    padding:100px 0 0 0;
+    }
+    
+    .bottom-left2 {
+    padding:15% 0 0 0;
+    }    
+    
+    #names {
+    font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+    #names {
+    font-size:18px;
+    }
+    
+    #title {
+    font-size:60px;
+    }
+    
+    .bottom-left2 {
+    padding: 15% 0 0 0;
+    }
+}  
+
+
+  
 
 
